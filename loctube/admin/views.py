@@ -48,7 +48,7 @@ def linkedin():
 
             json_url_part1= "https://api.linkedin.com/v1/people-search:(people:(id,public-profile-url,educations),num-results)?company-name=" + company_name[0]
                         
-            access_token = "AQWV-lw8aOidUpqz9J6e09qrByd4MGBi6qgODh2fIMe1jlY_5yUFCR3SsseWjvhRMlJDwC8XmBcVvHIa22KW1lzkY7e-LaVu1aeVBHr8fXeU56Cjn7APw8h_FRrVWR4WBDizGbXPowOCByUTBC6w_taqeKMxsPC-OnKzSSzH3QA-nkbB4bo"             
+            access_token = "AQVN-e8YJh0EXXAb-zSl2Kvl6D7vzFoPvHdGUbnBd--1yxF8t9Jcbox8qphhHL56kfsZzDdgJey8JEPuNitDzuejSxG-CyLuzXfbmwAchJ9F6aHyZSnWSekS7oazpO0WdNUlyyVlMM3HWX1YvwsRvd7sGELG_sseMtS8eWYSiLDKO7gvQQ8"             
             
             json_url_part2 = json_url_part1+ "&count=20&format=json&oauth2_access_token="+access_token
             
