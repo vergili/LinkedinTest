@@ -1,0 +1,12 @@
+{% extends "admin/layout.html" %}
+
+{% from "macros/_form.html" import render_form %}
+
+
+
+{% block body %}
+<div class="container">
+    <h2>Get People from companies employees list. </h2>
+    {{ render_form(url_for('admin.linkedin'), form) }}
+</div>
+{% endblock %}
