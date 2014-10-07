@@ -4,14 +4,15 @@
 
 ## SETUP 
 
-	Clone:
+    	Clone:
     git clone https://github.com/vergili/LinkedinTest linkedin 
     
-    $ virtualenv env 
-    $ source env/bin/activate 
-    $ pip install -U pip 
-    $ pip install -U distribute 
-    $ pip install -r requirements.txt
+    cd linkedin
+    virtualenv env 
+    source env/bin/activate 
+    pip install -U pip 
+    pip install -U distribute 
+    pip install -r requirements.txt
     
     
   
@@ -30,4 +31,9 @@ Open: http://localhost:5000/admin/linkedin
 user: admin
 pass: 123456
 
+Note:  if access_token  expired please use your own access token which is defined in  loctube/admin/view.py 
+ 
+       you can easily provide from below 
+
+https://developer.linkedin.com/rest-console
 
