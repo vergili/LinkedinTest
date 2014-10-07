@@ -47,8 +47,11 @@ def linkedin():
         try:
 
             json_url_part1= "https://api.linkedin.com/v1/people-search:(people:(id,public-profile-url,educations),num-results)?company-name=" + company_name[0]
-                                    
-            json_url_part2 = json_url_part1+ "&count=20&format=json&oauth2_access_token=AQWV-lw8aOidUpqz9J6e09qrByd4MGBi6qgODh2fIMe1jlY_5yUFCR3SsseWjvhRMlJDwC8XmBcVvHIa22KW1lzkY7e-LaVu1aeVBHr8fXeU56Cjn7APw8h_FRrVWR4WBDizGbXPowOCByUTBC6w_taqeKMxsPC-OnKzSSzH3QA-nkbB4bo"
+                        
+            access_token = "AQWV-lw8aOidUpqz9J6e09qrByd4MGBi6qgODh2fIMe1jlY_5yUFCR3SsseWjvhRMlJDwC8XmBcVvHIa22KW1lzkY7e-LaVu1aeVBHr8fXeU56Cjn7APw8h_FRrVWR4WBDizGbXPowOCByUTBC6w_taqeKMxsPC-OnKzSSzH3QA-nkbB4bo"             
+            
+            json_url_part2 = json_url_part1+ "&count=20&format=json&oauth2_access_token="+access_token
+            
             linkedin_json = requests.get(json_url_part2)
             # Convert it to a Python dictionary
             linkedin_data = json.loads(linkedin_json.text)
@@ -68,7 +71,7 @@ def linkedin():
                     data = linkedin_data
                 else:                   
                    
-                    json_url_part2 = json_url_part1 + "&start="+ str(i*20)+"&count=20&format=json&oauth2_access_token=AQV3U2-rnfqa2L1ZVp5Qbgqqg_9JT2ZPzchXjM1YNOPRWE_D8HonPYNAnyFDmS5prDJ_elGe8lm4Ntmnk31-TuTWMDU_F_a48_pm1cPchnlKpenEEVNR1koIJ2IxpXKarL58e_tDz4Ck-Ist4WRmd8_cAw9qtUrNmPwuQF7rLk0F_fmrhno"
+                    json_url_part2 = json_url_part1 + "&start="+ str(i*20)+"&count=20&format=json&oauth2_access_token="+access_token
                     linkedin_json = requests.get(json_url_part2)
                     linkedin_data = json.loads(linkedin_json.text)
                     data = linkedin_data
