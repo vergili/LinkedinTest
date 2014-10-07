@@ -5,7 +5,7 @@
 ## SETUP 
 
 	Clone:
-    git clone https://github.com/vergili/loctube loctube
+    git clone https://github.com/vergili/LinkedinTest linkedin 
     
     $ virtualenv env 
     $ source env/bin/activate 
