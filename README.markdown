@@ -25,9 +25,7 @@ Change SQLALCHEMY_DATABASE_URI for your database connection  in loctube/config.p
     
 	python manage.py run
 
-Open:
-
-http://localhost:49656/admin/linkedin
+Open: http://localhost:5000/admin/linkedin
 
 user: admin
 pass: 123456
