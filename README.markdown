@@ -31,9 +31,14 @@ Open: http://localhost:5000/admin/linkedin
 user: admin
 pass: 123456
 
-###Note:  
-if access_token  expired please use your own access token which is defined in  loctube/admin/view.py 
-you can easily provide from below 
 
-https://developer.linkedin.com/rest-console
+NOTE:  Please write company name as linkedin public company url 
+       
+example:  http://www.linkedin.com/company/linkedin
+here company name is linkedin
+
+Then crawler will find public company name and will find first 10 emplooyes. 
+After that it will find other company employees with first 10 member public url....
+Since some compmany like linkedin has a lot of employees crawling will take long time. 
+
 
