@@ -73,7 +73,7 @@ def linkedin():
 
             newLinks = memberHtml(".with-photo strong a")
             if len(newLinks) == 0:
-                newLinks = memberHtml(".insights-browse-map h4 a")
+                newLinks = memberHtml(".insights-browse-map:first h4 a")
 
             current = memberHtml(".org.summary").text()
             if current == "" or companyName not in current.lower():
