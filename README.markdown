@@ -1,6 +1,7 @@
 # INTRODUCTION
 
 ## SETUP for Console Application 
+This part much easier to test application instead of WEB Application
 
     	Clone:
     git clone https://github.com/vergili/LinkedinTest linkedin 
