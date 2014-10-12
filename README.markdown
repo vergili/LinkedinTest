@@ -21,7 +21,7 @@ Please change your database connection in linkedin.py
 
 
 ####Screen from running for microsoft 
-![alt tag](https://github.com/vergili/LinkedinTest/tree/master/console/print_screen.png)
+![Alt text](console/print_screen.png?raw=true)
 
 
 ## SETUP for WEB Application 
