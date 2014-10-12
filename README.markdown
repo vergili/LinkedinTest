@@ -1,5 +1,7 @@
 # INTRODUCTION
 
+There is 2 type application in this repository. Console and Web application please select one of that to test crawler.
+
 ## SETUP for Console Application 
 This part much easier to test application instead of WEB Application
 
