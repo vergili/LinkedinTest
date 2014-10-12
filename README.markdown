@@ -13,6 +13,7 @@
     pip install -r requirements.txt
 
 Please change your database connection in linkedin.py
+
     python linkedin.py
 
 
