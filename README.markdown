@@ -1,8 +1,22 @@
 # INTRODUCTION
 
+## SETUP for Console Application 
+
+    	Clone:
+    git clone https://github.com/vergili/LinkedinTest linkedin 
+    
+    cd linkedin/console
+    virtualenv env 
+    source env/bin/activate 
+    pip install -U pip 
+    pip install -U distribute 
+    pip install -r requirements.txt
+
+Please change your database connection in linkedin.py
+    python linkedin.py
 
 
-## SETUP 
+## SETUP for WEB Application 
 
     	Clone:
     git clone https://github.com/vergili/LinkedinTest linkedin 
