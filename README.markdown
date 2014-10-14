@@ -19,6 +19,14 @@ Please change your database connection in linkedin.py
 
     python linkedin.py
 
+OR
+
+#### Multi Thread version  
+
+    python linkedin_multi_threading.py  
+
+
+
 
 ####Screen from running for microsoft 
 ![Alt text](console/print_screen.png?raw=true)
